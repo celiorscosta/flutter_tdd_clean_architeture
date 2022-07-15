@@ -5,7 +5,7 @@ import 'package:mockito/mockito.dart';
 
 import 'package:flutter_tdd_clean_architeture/core/error/exception.dart';
 import 'package:flutter_tdd_clean_architeture/core/error/failure.dart';
-import 'package:flutter_tdd_clean_architeture/core/platform/network_info.dart';
+import 'package:flutter_tdd_clean_architeture/core/network/network_info.dart';
 import 'package:flutter_tdd_clean_architeture/features/number_trivia/data/datasources/number_trivia_local_data_source.dart';
 import 'package:flutter_tdd_clean_architeture/features/number_trivia/data/datasources/number_trivia_remote_data_source.dart';
 import 'package:flutter_tdd_clean_architeture/features/number_trivia/data/models/number_trivia_model.dart';
