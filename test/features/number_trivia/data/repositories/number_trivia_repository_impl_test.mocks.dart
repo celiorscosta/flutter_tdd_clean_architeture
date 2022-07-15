@@ -104,3 +104,31 @@ class BaseMockNumberTriviaRemoteDataSource extends _i1.Mock
                   _FakeNumberTriviaModel_0()))
           as _i4.Future<_i2.NumberTriviaModel>);
 }
+
+/// A class which mocks [NumberTriviaLocalDataSource].
+///
+/// See the documentation for Mockito's code generation for more information.
+class BaseMockNumberTriviaLocalDataSource extends _i1.Mock
+    implements _i5.NumberTriviaLocalDataSource {
+  @override
+  _i4.Future<_i2.NumberTriviaModel> getLastNumberTrivia() =>
+      (super.noSuchMethod(Invocation.method(#getLastNumberTrivia, []),
+              returnValue: Future<_i2.NumberTriviaModel>.value(
+                  _FakeNumberTriviaModel_0()))
+          as _i4.Future<_i2.NumberTriviaModel>);
+  @override
+  _i4.Future<void> cacheNumberTrivia(_i2.NumberTriviaModel? triviaCache) =>
+      (super.noSuchMethod(Invocation.method(#cacheNumberTrivia, [triviaCache]),
+          returnValue: Future<void>.value(),
+          returnValueForMissingStub: Future<void>.value()) as _i4.Future<void>);
+}
+
+/// A class which mocks [NetworkInfo].
+///
+/// See the documentation for Mockito's code generation for more information.
+class BaseMockNetworkInfo extends _i1.Mock implements _i6.NetworkInfo {
+  @override
+  _i4.Future<bool> get isConnected =>
+      (super.noSuchMethod(Invocation.getter(#isConnected),
+          returnValue: Future<bool>.value(false)) as _i4.Future<bool>);
+}
