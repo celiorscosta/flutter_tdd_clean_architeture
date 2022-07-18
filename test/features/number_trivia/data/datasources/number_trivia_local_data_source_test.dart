@@ -69,7 +69,7 @@ void main() {
       // assert
       final expectedJsonString = json.encode(tNumberTriviaModel.toJson());
       verify(mockSharedPreferences.setString(
-        CACHED_NUMBER_TRIVIA,
+        'CACHED_NUMBER_TRIVIA',
         expectedJsonString,
       ));
     });
